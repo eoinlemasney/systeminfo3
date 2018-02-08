@@ -1,6 +1,6 @@
 '''
 Created on 8 Feb 2018
-
+thursday*
 @author: eoinlemasney
 '''
 from setuptools import setup
