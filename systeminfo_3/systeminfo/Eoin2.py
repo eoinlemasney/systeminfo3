@@ -1,8 +1,18 @@
-'''
-Created on 30 Jan 2018
+from certifi import __main__
 
-@author: eoinlemasney
-'''
-
-if __name__ == '__main__':
-    pass
+def factorial(n):
+      
+    if n == 1:
+            return 1
+    else:
+        return n*factorial(n-1)
+    
+    def main():
+        n = 3
+        f = factorial(n)
+        print(f)
+    
+    if __main__ == "__main__":
+        main()
+        
+print (factorial(3))
