@@ -14,6 +14,6 @@ setup(name = "systeminfo",
       licence = "GPL3",
       packages=['systeminfo'],
       entry_points={
-          'console_scripts':['comp30670_systeminfo=ysteminfo.main:main']
+          'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
           }
       )
